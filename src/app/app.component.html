@@ -1,3 +1,11 @@
+<!-- input Allows for users to dynamically change the image -->
+<!-- events are wrapped in a pair of parentheses -->
+<!-- property binding is performed with square brackets while event binding is performed with parentheses  -->
+<input (keyup)="changeImage($event)" [value]="" type="text">
+
+<!-- the syntax for property binding is the attribute name surrounded by square brackets  -->
+<img [src]="imgUrl" alt=""> 
+
 <p>Ayyooo, less gett it {{ name.toUpperCase() }}!</p>
 <p>Ayyooo, less gett it {{ getName() }}!</p>
 <p>{{ 15 + 21 }}</p> 
