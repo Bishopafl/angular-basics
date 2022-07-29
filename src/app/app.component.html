@@ -1,7 +1,7 @@
 <!-- input Allows for users to dynamically change the image -->
 <!-- events are wrapped in a pair of parentheses -->
 <!-- property binding is performed with square brackets while event binding is performed with parentheses  -->
-<input (keyup)="changeImage($event)" [value]="" type="text">
+<input (keyup)="changeImage($event)" [value]="imgUrl" type="text">
 
 <!-- the syntax for property binding is the attribute name surrounded by square brackets  -->
 <img [src]="imgUrl" alt=""> 
