@@ -3,6 +3,10 @@
 <!-- property binding is performed with square brackets while event binding is performed with parentheses  -->
 <input (keyup)="changeImage($event)" [value]="imgUrl" type="text">
 
+<app-post
+    postImg="imgUrl"
+></app-post>
+
 <!-- the syntax for property binding is the attribute name surrounded by square brackets  -->
 <img [src]="imgUrl" alt=""> 
 
