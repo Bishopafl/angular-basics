@@ -4,11 +4,12 @@
 <input (keyup)="changeImage($event)" [value]="imgUrl" type="text">
 
 <app-post
-    postImg="imgUrl"
+    [img]="imgUrl"
+    (imgSelected)="logImg($event)"
 ></app-post>
 
 <!-- the syntax for property binding is the attribute name surrounded by square brackets  -->
-<img [src]="imgUrl" alt=""> 
+<!-- <img [src]="imgUrl" alt="">  -->
 
 <p>Ayyooo, less gett it {{ name.toUpperCase() }}!</p>
 <p>Ayyooo, less gett it {{ getName() }}!</p>
