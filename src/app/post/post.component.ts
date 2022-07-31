@@ -9,6 +9,8 @@ import { Component, Input, EventEmitter, Output } from '@angular/core';
  * :19 is using an alias for input of post image, the angular 
  * docs say to avoid using aliases on inputs and output.
  * 
+ * Content projection is the process of loading content inserted into a components tag
+ * 
  * 
  * 
  */

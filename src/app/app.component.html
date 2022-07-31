@@ -6,11 +6,13 @@
 <app-post
     [img]="imgUrl"
     (imgSelected)="logImg($event)"
-></app-post>
+>
+    <p>Some random caption</p>
+</app-post>
 
 <!-- the syntax for property binding is the attribute name surrounded by square brackets  -->
 <!-- <img [src]="imgUrl" alt="">  -->
 
 <p>Ayyooo, less gett it {{ name.toUpperCase() }}!</p>
 <p>Ayyooo, less gett it {{ getName() }}!</p>
-<p>{{ 15 + 21 }}</p> 
+<p>{{ 15 + 21 }}</p> `
