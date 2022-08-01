@@ -26,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 # Components
 two components declared within the same module are accessible to one another.
+
+# Transforming Content
+Understanding Pipes:
+Pipe is a function for transforming values within a component. Pipes are not bound to a specific component and can be called throughout our application.
